@@ -97,13 +97,13 @@ if __name__ == "__main__":
     view = view_psnumbers()
     for i in view:
         print(i)
-    ps = int(input("\nEnter ps Number: "))
+    ps = int(input("Enter ps Number from above list: "))
     PS_CHECK = obj.validate(ps)
     if PS_CHECK == "Valid":
         print("\nData in excel")
         for i in all_sheets:
             print(i + "\t", end="")
-        input_sheet = input("\n\nEnter data/sheet name: ")
+        input_sheet = input("\n\nEnter data/sheet name from above list: ")
         SHEET_CHECK = obj.validate_sheet(input_sheet)
         if SHEET_CHECK == "Invalid":
             print("Invalid Data Requested")
