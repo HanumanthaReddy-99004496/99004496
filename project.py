@@ -1,8 +1,10 @@
+
 """
 project.py
 program to show all ps.no and all columns
 print user wanted column to new excel file
 """
+# pylint: disable=R1705
 import openpyxl
 
 wb = openpyxl.load_workbook("input.xlsx")
