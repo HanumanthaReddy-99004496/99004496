@@ -79,13 +79,13 @@ class Excel:
         columns = data.max_column
         for col_val in range(1, columns + 1):
             fetch_titles = data.cell(row=1, column=col_val)
-            print(fetch_titles.value, end="\t\t")   # column names
+            # print(fetch_titles.value, end="\t\t")   # column names
             # storing column names in list to write it to output.xlsx
             titles.append(fetch_titles.value)
         print()
         for col_val in range(1, columns + 1):
             fetch_data = data.cell(row=row_id, column=col_val)
-            print(fetch_data.value, end="\t\t")    # requested data
+            # print(fetch_data.value, end="\t\t")    # requested data
             # storing  data in list to write it to output.xlsx
             fetched_data.append(fetch_data.value)
         return fetched_data
@@ -108,9 +108,8 @@ if __name__ == "__main__":
         if SHEET_CHECK == "Invalid":
             print("Invalid Data Requested")
         else:
-            VAL = obj.get_data(ps, input_sheet)
+            obj.get_data(ps, input_sheet)
             VAL1 = writeto_outputxl()
-            print(VAL)
             print(VAL1)
     else:
         print(PS_CHECK)
