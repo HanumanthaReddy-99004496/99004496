@@ -8,7 +8,7 @@
 
 # Offline Checking
 ## Install openpyxl
-- Install openpyxl 'pip install openpyxl'
+- Install openpyxl `pip install openpyxl'
 
 ## Running Project
 - Run command `python project.py`
