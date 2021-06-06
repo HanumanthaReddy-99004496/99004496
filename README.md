@@ -4,11 +4,11 @@
 
 | Build | Static Code Analysis - pylint                                 | Unit testing - pytest |Git-inspector | 
 |-------------|--------------------------------------------------------------|------------|-------------|
-|99004496/99004496/actions/workflows/Build.yml)|[![python-lint](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pylint.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pylint.yml)|[![python-test](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pytest.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pytest.yml)|[![Contribution Check - Git Inspector](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/git-inspector.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/git-inspector.yml)|
+|[![python-build](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/Build.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/Build.yml)|[![python-lint](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pylint.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pylint.yml)|[![python-test](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pytest.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/pytest.yml)|[![Contribution Check - Git Inspector](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/git-inspector.yml/badge.svg)](https://github.com/HanumanthaReddy-99004496/99004496/actions/workflows/git-inspector.yml)|
 
 # Offline Checking
 ## Install openpyxl
-- 'pip install openpyxl'
+- Install openpyxl 'pip install openpyxl'
 
 ## Running Project
 - Run command `python project.py`
